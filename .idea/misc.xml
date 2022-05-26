@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_about_us.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_captcha.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_new_pr.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_paint.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_photo_robot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/den60/AndroidStudioProjects/app/src/main/res/layout/card_layout.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paint">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:background="@color/aqua"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/back_arrow"
+            android:onClick="bck1" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="116dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="-25dp"
+            android:ems="22"
+            android:fontFamily="sans-serif-medium"
+            android:text="Paint"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="-33dp"
+            android:background="@drawable/share"
+            android:onClick="shr" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/instr"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll">
+
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="17dp"
+            app:srcCompat="@drawable/rgb" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="-50dp"
+            app:srcCompat="@drawable/pencil" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="-48dp"
+            app:srcCompat="@drawable/del" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="380dp"
+        android:layout_height="505dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="33dp"
+        android:rotation="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instr"
+        app:srcCompat="@drawable/cartoon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
